@@ -55,12 +55,14 @@ const Jewellery = () => (
 const App = () => {
   return (
     <main>
+        {/* Do not remove the main div */}
     <Router>
-    
+    <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/women">Women</Link></li>
         </ul>
+        </nav>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/women" element={<Women />} >
