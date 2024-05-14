@@ -54,8 +54,9 @@ const Jewellery = () => (
 
 const App = () => {
   return (
+    <main>
     <Router>
-      <div>
+    
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/women">Women</Link></li>
@@ -69,8 +70,9 @@ const App = () => {
       <Route path="Jewellery" element={<Jewellery />} />
       </Route>
         </Routes>
-      </div>
+        
     </Router>
+    </main>
   )
 }
 
