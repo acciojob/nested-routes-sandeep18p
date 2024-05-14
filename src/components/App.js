@@ -12,10 +12,10 @@ const Women = () => (
   <div>
     <h2>Women Items:</h2>
     <ul>
-      <li><Link to="/women/grooming">Grooming</Link></li>
-      <li><Link to="/women/tshirt">Tshirt</Link></li>
-      <li><Link to="/women/trouser">Trouser</Link></li>
-      <li><Link to="/women/jewellery">Jewellery</Link></li>
+      <li><Link to="/women/Grooming">Grooming</Link></li>
+      <li><Link to="/women/Shirt">Shirt</Link></li>
+      <li><Link to="/women/Trouser">Trouser</Link></li>
+      <li><Link to="/women/Jewellery">Jewellery</Link></li>
     </ul>
    
      
@@ -63,10 +63,10 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/women" element={<Women />} >
-          <Route path="grooming" element={<Grooming />} />
-      <Route path="tshirt" element={<Tshirt />} />
-      <Route path="trouser" element={<Trouser />} />
-      <Route path="jewellery" element={<Jewellery />} />
+          <Route path="Grooming" element={<Grooming />} />
+      <Route path="Shirt" element={<Tshirt />} />
+      <Route path="Trouser" element={<Trouser />} />
+      <Route path="Jewellery" element={<Jewellery />} />
       </Route>
         </Routes>
       </div>
